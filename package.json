@@ -1,9 +1,13 @@
 {
-  "name": "ym-test",
+  "name": "@ym-lerna",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "lerna version --conventional-commits --yes && lerna publish from-package",
+    "release:patch": "lerna version patch --yes && lerna publish from-package",
+    "release:minor": "lerna version minor --yes && lerna publish from-package",
+    "release:major": "lerna version major --yes && lerna publish from-package"
   },
   "keywords": [],
   "author": "",
