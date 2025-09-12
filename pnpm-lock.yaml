@@ -12,6 +12,18 @@ importers:
         specifier: ^8.2.3
         version: 8.2.3(encoding@0.1.13)
 
+  packages/core:
+    dependencies:
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
+
+  packages/utils:
+    dependencies:
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
+
 packages:
 
   '@babel/code-frame@7.27.1':
