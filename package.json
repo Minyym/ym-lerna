@@ -1,6 +1,5 @@
 {
   "name": "ym-lerna",
-  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
