@@ -1,0 +1,22 @@
+{
+  "name": "@ym-lerna/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "yuyanmin <1812006192@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
