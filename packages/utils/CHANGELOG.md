@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2-beta.0](https://github.com/Minyym/ym-lerna/compare/v2.0.1...v2.0.2-beta.0) (2025-09-13)
+
+
+### Features
+
+* console ([eadd250](https://github.com/Minyym/ym-lerna/commit/eadd250d326ad20e0f9347d35747f47f24d7ae1b))
+
+
+
+
+
 ## [2.0.1](https://github.com/Minyym/ym-lerna/compare/v2.0.0...v2.0.1) (2025-09-13)
 
 
