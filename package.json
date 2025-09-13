@@ -4,14 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "lerna version --conventional-commits --yes && lerna publish from-package --access public",
-    "release:patch": "lerna publish patch --yes --access public",
-    "release:minor": "lerna publish minor --yes --access public",
-    "release:major": "lerna publish major --yes --access public",
-    "prerelease": "lerna publish prerelease --preid beta --yes --access public",
-    "preminor:beta": "lerna publish preminor --preid beta --yes --access public",
-    "premajor:beta": "lerna publish premajor --preid beta --yes --access public",
-    "prepatch:beta": "lerna publish prepatch --preid beta --yes --access public"
+    "release": "lerna version --conventional-commits --yes && lerna publish from-package",
+    "release:patch": "lerna publish patch",
+    "release:minor": "lerna publish minor",
+    "release:major": "lerna publish major",
+    "prerelease": "lerna publish prerelease --preid beta",
+    "preminor:beta": "lerna publish preminor --preid beta",
+    "premajor:beta": "lerna publish premajor --preid beta",
+    "prepatch:beta": "lerna publish prepatch --preid beta"
   },
   "keywords": [],
   "author": "",
