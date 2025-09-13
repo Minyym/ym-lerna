@@ -5,6 +5,9 @@
   "author": "yuyanmin <1812006192@qq.com>",
   "homepage": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "lib/core.js",
   "directories": {
     "lib": "lib",
